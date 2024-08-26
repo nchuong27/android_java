@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.Addcate">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <ImageView
+        android:id="@+id/addcateDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@id/toolbarCate"
+        android:layout_marginEnd="6dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Tên danh mục(*)" />
+
+    <EditText
+        android:id="@+id/addcateText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập tên danh mục"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:layout_alignTop="@id/textView14"
+        android:layout_below="@id/textView14"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/imgCate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập link ảnh"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/edittext"
+        android:layout_alignTop="@id/addcateText"
+        android:layout_below="@id/addcateText"
+        android:maxLines="1"/>
+</RelativeLayout>

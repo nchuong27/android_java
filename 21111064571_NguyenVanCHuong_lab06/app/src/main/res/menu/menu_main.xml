@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_chucnag1"
+        android:title="Chức năng 1" />
+
+    <item
+        android:id="@+id/nav_chucnag2"
+        android:title="Chức năng 2" />
+    <item
+        android:id="@+id/nav_chucnag3"
+        android:title="Chức năng 3" />
+
+</menu>

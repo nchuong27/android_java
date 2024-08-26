@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/latop"
+    tools:context=".view.DangKy">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:text="Đăng Ký" />
+
+    <EditText
+        android:id="@+id/edtemailres"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edt_back"
+        android:inputType="text"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:padding="10dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edtpassres"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edt_back"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Mật khẩu" />
+
+    <EditText
+        android:id="@+id/edtcofpassres"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edt_back"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Xác nhận mật khẩu" />
+    <EditText
+        android:id="@+id/edtmaxacthuc"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edt_back"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:padding="8dp"
+        android:hint="Không nhập" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsignup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_back"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Đăng ký" />
+
+
+
+
+
+</LinearLayout>

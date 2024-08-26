@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/text_danhmuc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="16dp" />
+
+
+
+    <!-- Nút sửa danh mục -->
+    <Button
+        android:id="@+id/buttonEditCategory"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_edit_24" />
+
+    <!-- Nút xóa danh mục -->
+    <Button
+        android:id="@+id/buttonDeleteCategory"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_delete_24" />
+
+</LinearLayout>
